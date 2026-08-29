@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>KHUSHI ENTERPRISES</title>
+    <title>Khushi Enterprises</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f6f8;
             color: #333333;
-            margin: 40px;
+            margin: 30px;
         }
         h1 {
             color: #0056b3;
@@ -15,35 +15,50 @@
         h2 {
             color: #2c3e50;
         }
-        ul {
+        /* प्रोडक्ट्स के लिए कार्ड (डिब्बे) डिजाइन */
+        .product-box {
             background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-        }
-        li {
+            padding: 15px 20px;
             margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #0056b3;
+        }
+        /* व्हाट्सएप बटन का डिजाइन */
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .whatsapp-btn:hover {
+            background-color: #1ebe5d;
         }
     </style>
 </head>
 <body>
     <h1>KHUSHI ENTERPRISES</h1>
     <p>यहाँ सभी प्रकार के प्लंबिंग, इलेक्ट्रिकल और पेंट का सामान उचित मूल्य पर मिलता है।</p>
-   
+    
     <hr>
     
     <h2>Our Products</h2>
-    <ul>
-        <li>Plumbing Pipes & Fittings</li>
-        <li>Electrical Switches & Wires</li>
-        <li>Dulux Paints & Primers</li>
-        <li>Hardware Tools & Screws</li>
-    </ul>
+    <div class="product-box">Plumbing Pipes & Fittings</div>
+    <div class="product-box">Electrical Switches & Wires</div>
+    <div class="product-box">Dulux Paints & Primers</div>
+    <div class="product-box">Hardware Tools & Screws</div>
 
     <hr>
     
     <h2>Contact Us</h2>
-    <p><strong>ADDRESS:</strong> 545, SIKAR ROAD, JHEEGAR CHHOTI, SIKAR, PIN-332024, RAJASTHAN</p>
-    <p><strong>PHONE:</strong> 01572-291578 ;  <strong>MOBILE:</strong> +91 9414744426</p>
+    <p><strong>ADDRESS:</strong> 545, Sikar Road, Jheegar Chhoti, Sikar, Pin-332024, Rajasthan</p>
+    <p><strong>PHONE:</strong> 01572-291578 | <strong>MOBILE:</strong> +91 9414744426</p>
+    
+    <!-- व्हाट्सएप पर सीधा चैट करने का बटन -->
+    <a href="https://wa.me/919414744426?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20hardware%20items." class="whatsapp-btn" target="_blank">Chat on WhatsApp</a>
 </body>
 </html>
